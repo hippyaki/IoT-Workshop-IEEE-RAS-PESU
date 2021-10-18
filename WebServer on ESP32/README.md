@@ -7,7 +7,7 @@
   <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/06/ESP32-bme280_schematic.jpg?resize=768%2C669&quality=100&strip=all&ssl=1png" width="540" height="350"><br>
 </p>
 
-- In the code, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop---IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries) 
+- In the code, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries) 
 
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
@@ -22,7 +22,7 @@ Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
   <img src="https://user-images.githubusercontent.com/52236719/137768915-dc954ee5-8118-42b6-a669-3c78c0aa9616.png"><br>
 </p>
 
-- In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop---IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries)
+- In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries)
 
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
@@ -44,4 +44,4 @@ HTTP server started
 3. WiFi - This library lets the board connect to the internet, wifi service. [more details](https://www.arduino.cc/en/Reference/WiFi)
 4. WebServer - Supports in creating a webserver and run an independent simple webserver. [more details](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer)
 
-Download all libraries from the folder and paste on the arduino/lib folder. [click here](https://download-directory.github.io?url=https://github.com/hippyaki/IoT-Workshop---IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32/libraries)
+Download all libraries from the folder and paste on the arduino/lib folder. [click here](https://download-directory.github.io?url=https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32/libraries)
