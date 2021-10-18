@@ -41,7 +41,10 @@ HTTP server started
 
 1. Wire - This library allows you to communicate with I2C / TWI devices. In ESP32, **`SDA -> D21`** and **`SCL -> D22`**. Used to set I2C communication with the BME280 sensor.
 2. SparkFunBME280 - This library allows the user to: Read pressure in Pa, Read temperature in C and F, Read humidity in %RH and Read Altitude in feet and meters. [more details](https://github.com/sparkfun/SparkFun_BME280_Arduino_Library)
-3. WiFi - This library lets the board connect to the internet, wifi service. [more details](https://www.arduino.cc/en/Reference/WiFi)
-4. WebServer - Supports in creating a webserver and run an independent simple webserver. [more details](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer)
+3. Adafruit Sensor - To use the BME280 library, you also need to install the Adafruit_Sensor library. Follow the next steps to install the library in your Arduino IDE:
+Go to `Sketch` > `Include Library` > `Manage Libraries` and type “Adafruit Unified Sensor” in the search box. Scroll all the way down to find the library and install it.
+
+4. WiFi - This library lets the board connect to the internet, wifi service. [more details](https://www.arduino.cc/en/Reference/WiFi)
+5. WebServer - Supports in creating a webserver and run an independent simple webserver. [more details](https://github.com/espressif/arduino-esp32/tree/master/libraries/WebServer)
 
 Download all libraries from the folder and paste on the arduino/lib folder. [click here](https://download-directory.github.io?url=https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32/libraries)
