@@ -7,7 +7,7 @@
   <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/06/ESP32-bme280_schematic.jpg?resize=768%2C669&quality=100&strip=all&ssl=1png" width="540" height="350"><br>
 </p>
 
-- In the code, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries) 
+- In the code, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries) 
 
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
@@ -23,7 +23,7 @@ Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
   <img src="https://user-images.githubusercontent.com/52236719/137768915-dc954ee5-8118-42b6-a669-3c78c0aa9616.png"><br>
 </p>
 
-- In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries)
+- In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
 
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
@@ -43,7 +43,7 @@ HTTP server started
   <img src="https://user-images.githubusercontent.com/52236719/137867659-52e5ed37-5527-4b28-a524-4b7dbd6dc390.png"><br>
 </p>
 
-- In the code, `Wifi.h`, `ESPAsyncWebServer.h`, `SPIFFS.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/WebServer%20on%20ESP32#libraries)
+- In the code, `Wifi.h`, `ESPAsyncWebServer.h`, `SPIFFS.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
 - After successful compilation, go to `Tools` > `ESP32 Sketch Data Upload` to upload the `data` folder which contains the HTML, CSS and Image file, to the ESP32 board.
 - Upload the code and then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
