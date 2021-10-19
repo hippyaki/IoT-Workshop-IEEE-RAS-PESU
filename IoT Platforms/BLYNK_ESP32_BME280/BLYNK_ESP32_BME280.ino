@@ -23,11 +23,10 @@ char ssid[] = "<wifi_name>";                    // Your Wi-Fi Credentials
 char pass[] = "<password>";
 
 void setup() {  
-  pinMode(26, OUTPUT);
-  //pinMode(27, OUTPUT); 
+  pinMode(2, OUTPUT);
 
   ledcSetup(channel, freq, resolution);
-  ledcAttachPin(27, channel);
+  ledcAttachPin(4, channel);
 
   Serial.begin(9600);
   
@@ -50,8 +49,8 @@ void setup() {
 BLYNK_WRITE(V0)
 {  // This function gets called each time something changes on the widget
   int value = param.asInt();  // This gets the 'value' of the Widget as an integer
-  digitalWrite(26,value);
-  Serial.print("26 - ");
+  digitalWrite(2,value);
+  Serial.print("Pin 2 - ");
   Serial.println(value);
 }
 
@@ -62,7 +61,7 @@ BLYNK_WRITE(V1)
   //map(value2, 0, 255, 0, 255)
   
   ledcWrite(channel, value2);
-    Serial.print("27 - ");
+    Serial.print("Pin 4 - ");
     Serial.println(value2);
 }
 
