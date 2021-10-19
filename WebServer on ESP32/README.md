@@ -24,7 +24,7 @@ Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
 </p>
 
 - In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
-
+- Replace `<wifi_name>` and `<password` under ssid and password with your WiFi credentials.
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
 Connecting to 
