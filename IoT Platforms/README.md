@@ -2,7 +2,7 @@
 
 ## Folder Content:
 
-####  1. `BLYNK_ESP32_BME280.ino` : Using Blynk App, control and monitor with the ESP32 board. Make sure to use the `auth_token` that you received on your email ID when you created the project in the App.
+####  1. `BLYNK_ESP32_BME280` : Using Blynk App, control and monitor with the ESP32 board. Make sure to use the `auth_token` that you received on your email ID when you created the project in the App.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/52236719/137901894-b8d6359c-9ea1-4746-8ddb-769e84484f71.jpeg"width="240" height="540">
  <!--- <img src="https://user-images.githubusercontent.com/52236719/137902081-1d188c57-eda4-401b-911a-a7f3e948c66f.jpeg"width="240" height="540">  --->
