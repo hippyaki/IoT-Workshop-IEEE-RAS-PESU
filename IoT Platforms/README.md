@@ -12,7 +12,7 @@
   <br>
 </p>
 
-- In the code, `WiFi.h`, `WiFiClient.h`, `Wire.h`, and `BlynkSimpleEsp32.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/IoT%20Platforms#libraries)
+- In the code, `WiFi.h`, `WiFiClient.h`, `Wire.h`, and `BlynkSimpleEsp32.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/IoT%20Platforms#libraries)
 - Replace `<wifi_name>`, `<password`, and `auth_token` under ssid, password, and auth with your WiFi and Blynk credentials. (Hint - Check the settings of the Project in App for Auth)
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
 ```json
@@ -39,7 +39,7 @@ Below is a Public LIVE View of such a device:
 <a>
 </p>
 
-- In this code, `Wifi.h`,  `HTTPClient.h`, `Wire.h`, and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/new/master/IoT%20Platforms#libraries)
+- In this code, `Wifi.h`,  `HTTPClient.h`, `Wire.h`, and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/IoT%20Platforms#libraries)
 - Replace `<wifi_name>` and `<password` under ssid and password with your WiFi credentials. Get the `Write API Key` from API Keys section in ThingSpeak Channel. Paste it on code over `<API>`
 - In the `serverPath` variable change the field no. according to your requirement. In case you're using Field 1, then change `"&field2="` -> `"&field1="`. For multiple fields, add ` + "&field3=" + readTemperature();`.
 - After successful compilation, upload to the ESP32. If there was no error, check the Chart of the Channel > Field. 
