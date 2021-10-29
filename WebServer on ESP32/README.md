@@ -2,7 +2,7 @@
 
 ## Folder Content:
 
-####  1. `BME280_testing.ino` : Test the working of BME280 sensor. It works using I2C communication with the ESP32. 
+####  1. `BME280_testing` : Test the working of BME280 sensor. It works using I2C communication with the ESP32. 
 <p align="center">
   <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2019/06/ESP32-bme280_schematic.jpg?resize=768%2C669&quality=100&strip=all&ssl=1png" width="540" height="350"><br>
 </p>
@@ -17,11 +17,17 @@ Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
 - Hint: Make sure the baudrate on the Serial Monitor is set to `115200`.
 
 
-#### 2. `ESP32_webserver.ino` : Run a Webserver on ESP32. Create an HTML page which can be viewed on the IP address of the ESP32. Using BME280 sensor, use the data on the webpage. 
+#### 2. `ESP32_webserver` : Run a Webserver on ESP32. Create an HTML page which can be viewed on the IP address of the ESP32. Using BME280 sensor, use the data on the webpage. 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52236719/139480764-d33e10e5-0c3a-458e-96c2-08002153df8b.png"><br>
+</p>
+<br>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/52236719/137768915-dc954ee5-8118-42b6-a669-3c78c0aa9616.png"><br>
 </p>
+
+
 
 - In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
 - Replace `<wifi_name>` and `<password` under ssid and password with your WiFi credentials.
@@ -35,7 +41,7 @@ Got IP: 192.168.29.203
 HTTP server started
 ```
 - You should see your IP address beside `Got IP`. Copy the IP address and paste it on a browser. You'll see the output webpage as shown in above image.
-- To add authentication to the data, if the IP address is leaked, replace the `'/'` in ```server.on("/", handle_OnConnect);``` with `'/password'`. Only the people with correct endpoint can access the ESP32 data.
+- To add authentication to the data, if the IP address is leaked, replace the `'/'` in ```server.on("/", handle_OnConnect);``` with `'/secret-key/'`. Example: ```server.on("/c58adgh8u5kytkj5dgf/", handle_OnConnect);```. Only the people with correct endpoint can access the ESP32 data.
 
 #### 3. `ESP32_Webserver_SPIFFS__BME280_` : Run a WebServer that uses SPIFFS and displays HTML, CSS file present in the ESP32 memory. Hosted a background image from the memory.
 
