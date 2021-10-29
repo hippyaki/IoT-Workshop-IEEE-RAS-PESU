@@ -1,4 +1,4 @@
-# IoT Platforms
+#  🏪 IoT Platforms
 
 ## Folder Content:
 
@@ -15,7 +15,7 @@
 - In the code, `WiFi.h`, `WiFiClient.h`, `Wire.h`, and `BlynkSimpleEsp32.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/IoT%20Platforms#libraries)
 - Replace `<wifi_name>`, `<password`, and `auth_token` under ssid, password, and auth with your WiFi and Blynk credentials. (Hint - Check the settings of the Project in App for Auth)
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
-```json
+```ruby
 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
 configsip: 0, SPIWP:0xee
 clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
