@@ -26,7 +26,7 @@
 - In the code, `FirebaseESP32.h`, and other libraries from `IoT Platforms` has been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/Data%20Management#libraries)
 - Using the updateNode function from the Firebase ibrary, the data in Realitime Database is updated regularly.
 - The code currently has `Device 1`'s child, i.e. `Data` and `Status` keys, who's values are updated using the below code.
-```
+```ruby
   json.set("/data", mySensor.readFloatHumidity());
   json.set("/status", "Success !");
   Firebase.updateNode(firebaseData,"/Device 1",json);
@@ -40,7 +40,7 @@
 
 - Make sure to choose appropriate key to update the value of. For a parent like `Device 1`, use the above code.
 - When using no parent, and the data is single handed value, use the below code
-```
+```ruby
   json.set("Device 4", mySensor.readFloatHumidity());
   Firebase.updateNode(firebaseData,"/", json); 
 ```
