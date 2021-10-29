@@ -10,7 +10,7 @@
 - In the code, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries) 
 
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
-```json
+```ruby
 Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
 ```
 
@@ -26,7 +26,7 @@ Humidity: 63 Pressure: 100578 Alt: 204.7 Temp: 86.56
 - In the code, `Wifi.h`, `WebServer.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
 - Replace `<wifi_name>` and `<password` under ssid and password with your WiFi credentials.
 - After successful compilation, upload to the ESP32. Then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
-```json
+```ruby
 Connecting to 
 SINHA-HUB
 ...
@@ -46,7 +46,7 @@ HTTP server started
 - In the code, `Wifi.h`, `ESPAsyncWebServer.h`, `SPIFFS.h`, `Wire.h` and `SparkFunBME280.h` libraries have been used. [Scroll to Libraries](https://github.com/hippyaki/IoT-Workshop-IEEE-RAS-PESU/tree/master/WebServer%20on%20ESP32#libraries)
 - After successful compilation, go to `Tools` > `ESP32 Sketch Data Upload` to upload the `data` folder which contains the HTML, CSS and Image file, to the ESP32 board.
 - Upload the code and then go to `Tools`>`Serial Monitor` and wait for the program to be uploaded completely. Post upload, you'll view an output like below: <br>
-```json
+```ruby
 ets Jun  8 2016 00:22:57
 
 rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
@@ -66,7 +66,7 @@ Connecting to WiFi..
 ```
 - Go to a Web Browser and enter the IP adress on the URL address bar. The Webpage will open, similar to the image given above.
 - Check the serial monitor now, and you'll see additional lines printed:
-```json
+```ruby
 temp30.81
 humid61.59
 pressr1003.65
