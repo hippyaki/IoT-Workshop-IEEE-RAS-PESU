@@ -25,8 +25,8 @@ This repository contains files, content, code and projects related to the IoT wo
     
 
 #### 2. Install SPIFFS (SPI Flash Filesystem) on Arduino IDE for ESP32:
-- Download [ESP32FS-1.0.zip](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/download/1.0/ESP32FS-1.0.zip) from [ESP32 release page on Github](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)\
-- Go to the Arduino IDE directory, and open the Tools folder. Unzip the downloaded .zip folder to the Tools folder. You should have a similar folder structure:`<home_dir>/Arduino-<version>/tools/ESP32FS/tool/esp32fs.jar`
+- Download [ESP32FS-1.0.zip](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/download/1.0/ESP32FS-1.0.zip) from [ESP32 release page on Github](https://github.com/me-no-dev/arduino-esp32fs-plugin/releases/)
+- Go to the Arduino IDE directory, and open the Tools folder. Unzip the downloaded .zip folder to the Tools folder. You should have a similar folder structure:`<home_dir>/Arduino/tools/ESP32FS/tool/esp32fs.jar`
 ![Screenshot (1909)](https://user-images.githubusercontent.com/52236719/137848717-c5de39ed-7ebc-4fe1-b170-2f1e3f4d8ff0.png)
 
 - Restart the Arduino IDE and and check for `ESP32 Sketch Data Upload` under `Tools` section.
