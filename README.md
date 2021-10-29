@@ -32,5 +32,12 @@ This repository contains files, content, code and projects related to the IoT wo
 - Restart the Arduino IDE and and check for `ESP32 Sketch Data Upload` under `Tools` section.
 
   ![](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/10/sketch-data-upload.png)
+  
+#### 3. Install Libraries in Arduino IDE
 
-That's it !! Now you can start using SPIFFS on your ESP32 board. Use the File system to load and save data on its memory.
+- In your Arduino IDE, go to Sketch > Include Library
+    
+    If having a `.ZIP` file which claims to be a library, select "Include .ZIP Library" field as shown in the figure below. 
+    
+    ![Screenshot (1905)](https://roboticsbackend.com/wp-content/uploads/2019/10/arduino_ide_include_library_zip.jpg)
+    Select the ZIP file, and you're good to go!!
