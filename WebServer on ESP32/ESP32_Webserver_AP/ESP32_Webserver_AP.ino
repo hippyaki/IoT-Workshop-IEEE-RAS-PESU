@@ -35,13 +35,12 @@ void setup() {
   
   server.on("/", handle_OnConnect);
   server.onNotFound(handle_NotFound);
-  //--------------------------------------------------------
-  
-  server.on("/", handle_OnConnect);
-  server.onNotFound(handle_NotFound);
   
   server.begin();
   Serial.println("HTTP server started");
+  
+//--------------------------------------------------------
+
   Wire.begin();
 
   if (bme.beginI2C() == false) //Begin communication over I2C
@@ -50,6 +49,9 @@ void setup() {
     while(1); //Freeze
   }
 }
+
+//--------------------------------------
+
 void loop() {
   server.handleClient();
 }

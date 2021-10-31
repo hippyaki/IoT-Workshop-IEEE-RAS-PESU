@@ -30,7 +30,7 @@ entry 0x400806b4
 - Open the Blynk App > Add `Button`, `Slider` and `Value Display` on the blank space. Make changes as shown in the above images. 
 - Run the Project and plug in the Dev Board. You should see the values and be able to control `PIN 2` and `PIN 4`
 
-####  2. `Thingspeak_ESP32_BME280` : Thingspeak is not really an IoT Platform, but it is an API provider that lets you use hte site and its platform to send data into. It is mostly used to receive data from computational devices to gather the data and run a MATLAB code on it on the online platform itself. <br> You'll mostly watch people using a mincrocomputer (Raspberry Pi) to send data as an IoT device. Use this code to send data from the ESP32 itself. 
+####  2. `Thingspeak_ESP32_BME280` : Thingspeak is not really an IoT Platform, but it is an API provider that lets you use the site and its platform to send data into. It is mostly used to receive data from computational devices to gather the data and run a MATLAB code on it on the online platform itself. <br> You'll mostly watch people using a mincrocomputer (Raspberry Pi) to send data as an IoT device. Use this code to send data from the ESP32 itself. 
 
 Below is a Public LIVE View of such a device:
 <br>
