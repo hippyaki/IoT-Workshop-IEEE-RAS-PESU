@@ -20,6 +20,7 @@ This repository contains files, content, code and projects related to the IoT wo
     Search for ESP32 and press install button for the "esp32".
     
     ![Screenshot (1907)](https://user-images.githubusercontent.com/52236719/137845836-82e02c8a-3f94-4453-9d47-12a6008e000a.png)
+- Now, Go to Tools > Board:"Arduino Uno" > Select ESP32 Arduino > Select the Board you have/ Select 'ESP32 Dev Module' as default.    
 
     That's it !! You are SET and ready to start with the ESP32 Development using Arduino IDE.
     
